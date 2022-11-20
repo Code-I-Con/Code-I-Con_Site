@@ -15,9 +15,9 @@ const Navbar = () => {
                <h1 className='text-3xl font-bold mr-4 sm:text-4xl'>CODE-I-CON</h1>
                <ul className='hidden md:flex'>
                    <li>Home</li>
+                   <li>About</li>
                    <li>Camps</li>
                    <li>Committees</li>
-                   <li>About</li>
                    <li>Our Team</li>
                    <li>Contact Us</li>
                </ul>
@@ -44,6 +44,7 @@ const Navbar = () => {
        {/* If nav is true it will be hidden, and if it is false list will be displayed */}
       <ul className={!nav ? 'hidden' : 'absolute bg-zinc-200 w-full px-8'}>
            <li className='border-b-2 border-zinc-300 w-full'>Home</li>
+           <li className='border-b-2 border-zinc-300 w-full'>About</li>
            <li className='border-b-2 border-zinc-300 w-full'>Camps</li>
            <li className='border-b-2 border-zinc-300 w-full'>Committees</li>
            <li className='border-b-2 border-zinc-300 w-full'>Our Team</li>
